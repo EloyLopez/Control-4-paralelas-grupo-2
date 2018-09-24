@@ -58,20 +58,15 @@ else if (strcmp(pa,rightStr)==0)
     char palabra[6];
 
 
-    for(i=inicio; i<fin; i++)
-    {
+    for(i=inicio; i<fin; i++){
 
-        for(j=0; j<62; j++)
-        {
+        for(j=0; j<62; j++){
 
-            for(k=0; k<62; k++)
-            {
+            for(k=0; k<62; k++){
 
-                for(l=0; l<62; l++)
-                {
+                for(l=0; l<62; l++){
 
-                    for(m=0; m<62; m++)
-                    {
+                    for(m=0; m<62; m++){
                       for (t = 0; t < 62; t++) {
                         free(texto);
                         palabra[0]= diccionario[i];
