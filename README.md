@@ -18,6 +18,8 @@ make
 Muestra integrantes del grupo
 
 
-./dist/cryptoapp -f /tmp/prueba.txt
+mpiexec -n x ./dist/cryptoapp -f /tmp/prueba.txt
+
+Donde x es el número de procesadores que se desean ocupar
 
 Inicia el programa, y cuando encuentre la clave se creará un .txt en la ruta agregada "/tmp/prueba.txt"
