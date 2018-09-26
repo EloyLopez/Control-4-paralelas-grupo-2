@@ -86,9 +86,13 @@ else if (strcmp(pa,rightStr)==0)
  				fputs(texto, archivo);
 				fputs("\n",archivo);
 				break;
-                                
+				    //Imprimir claves en programa
+                                //fprintf(stdout, "Clave: %s         CPU: %d     Mensaje: %s \n", palabra, nodo, texto);
                             }
-
+			  /*  else
+			    {
+				    fprintf(stdout, "Clave: %s      \n", palabra);
+			    }*/
                         }
                       }
                     }
